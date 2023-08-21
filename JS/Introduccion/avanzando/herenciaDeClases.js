@@ -18,8 +18,8 @@ class Mod extends User {
         // de las dos variables, por el valor de esta clase, con los valores que esta clase reciba
         this.permisos = permisos;
     }
-
-    borrarPosts (id) {
+     
+    borrarPosts (id) {  
         if(this.permisos.includes("borrar")){
             console.log(`El post con el id ${id} ha sido eliminado`);
         } else {
