@@ -70,4 +70,6 @@ print(f"Los datos de la columna son: {nombres}")
 # Al usar el slicing solamente con los dos puntos se indica que tome todos los datos en respectivo
 fila2 = df.loc[2, :]
 print(f"Los datos de la fila 2 son: {fila2}")
+# 
 #
+
